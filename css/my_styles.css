@@ -1,0 +1,23 @@
+*{
+    letter-spacing: 0.8PX;
+    line-height: 1.5em;
+}
+body{
+    font-family: 'Noto serif TC', sans-serif;
+}
+p.r{
+    color: #AF7231;   
+    font-size:40px;
+    text-align: center;
+    text-indent: 2em;
+    letter-spacing: 0.8px;
+}
+.b{
+    color:#5C8447;
+    text-align: center;
+}
+.blue{
+    color:#C67052;
+    text-align: center;
+    font-size:40px;
+}

@@ -6,7 +6,10 @@ body{
     font-family: 'Noto serif TC', sans-serif;
 }
 p.r{
-    color: #AF7231;   
+    background-color: rgb(180, 43, 43);
+    color: hsl(31, 56%, 44%);   
+    border: 10px solid #5C8447 ;
+    background-image: url(../assets/img/S__65716229.jpg);
     font-size:40px;
     text-align: center;
     text-indent: 2em;
@@ -17,6 +20,7 @@ p.r{
     text-align: center;
 }
 .blue{
+    background-color: brown;
     color:#C67052;
     text-align: center;
     font-size:40px;

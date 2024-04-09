@@ -10,7 +10,7 @@ ol.WWlist{
 }
 Ol.WWlist>li:hover{
     background-color: red;
-    color: blue;
+    color: rgb(46, 46, 180);
 }
 .bg-primary{
     background-color: black ;

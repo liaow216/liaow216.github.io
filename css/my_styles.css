@@ -12,6 +12,20 @@ Ol.WWlist>li:hover{
     background-color: red;
     color: blue;
 }
+table.wwtable{
+    width: 80%;
+    background-color: #e0ad9a;
+}
+table.wwtable td{
+    text-align: center;
+}
+    table.wwtable th{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+td{
+    border: 1px solid #5C8447;
+}
 .bg-primary{
     background-color: black ;
     background-image: url(../assets/img/S__65716229.jpg) !important;

@@ -5,6 +5,13 @@
 body{
     font-family: 'Noto serif TC', sans-serif;
 }
+ol.WWlist{
+    list-style-type: upper-alpha ;    
+}
+Ol.WWlist>li:hover{
+    background-color: red;
+    color: blue;
+}
 .bg-primary{
     background-color: black ;
     background-image: url(../assets/img/S__65716229.jpg) !important;

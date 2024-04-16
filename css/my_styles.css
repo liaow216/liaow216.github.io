@@ -14,7 +14,7 @@ Ol.WWlist>li:hover{
 }
 table.wwtable{
     width: 80%;
-    background-color: #e0ad9a;
+    background-color: #fcdede;
 }
 table.wwtable td{
     text-align: center;
@@ -23,9 +23,7 @@ table.wwtable td{
     text-align: center;
     background-color: rgb(0, 0, 0);
 }
-td{
-    border: 1px solid #5C8447;
-}
+
 .bg-primary{
     background-color: black ;
     background-image: url(../assets/img/S__65716229.jpg) !important;
@@ -33,25 +31,25 @@ td{
     background-size:cover ;
     background-position:center ;
 }
-p.r{
-    background-color: rgb(180, 43, 43);
-    color: hsl(31, 56%, 44%);   
+div.r{
+    padding: 50px;
     border: 10px solid #5C8447 ;
+    border-radius: 10px;
+    margin: 0px 0px 50px 0px;
+    color: hsl(31, 56%, 44%);  
     background-image: url(../assets/img/S__65716229.jpg);
     font-size:40px;
     text-align: center;
     text-indent: 2em;
     letter-spacing: 0.8px;
 }
-.b{
-    color:#5C8447;
-    text-align: center;
+.w80{
+    width:80%;
+    margin:0px 0px 50px 0px;
 }
-.blue{
-    background-color: brown;
-    color:#C67052;
+.b{
+    color:#1a0a67;
     text-align: center;
-    font-size:40px;
 }
 .W123 {
     color: rgb(0, 0, 0);
@@ -60,4 +58,7 @@ p.r{
 .W123:hover {
     color: white;
     background-color: rgb(52, 126, 221);
+}
+.table-80{
+    width: 80%;
 }

@@ -25,8 +25,7 @@ table.wwtable td{
 }
 
 .bg-primary{
-    background-color: black ;
-    background-image: url(../assets/img/S__65716229.jpg) !important;
+    background-image: url(../assets/img/S__71565322.jpg) !important;
     background-repeat: no-repeat ;
     background-size:cover ;
     background-position:center ;
@@ -48,8 +47,8 @@ div.r{
     margin:0px 0px 50px 0px;
 }
 .b{
-    color:#1a0a67;
-    text-align: center;
+    color:#662204;
+    text-align: center; 
 }
 .W123 {
     color: rgb(0, 0, 0);
@@ -61,4 +60,11 @@ div.r{
 }
 .table-80{
     width: 80%;
+}
+.br{
+    text-align: center
+}
+.darkbg{
+    background-color: rgb(238, 217, 217);
+    color: #000000;
 }

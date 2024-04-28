@@ -47,8 +47,11 @@ div.r{
     margin:0px 0px 50px 0px;
 }
 .b{
-    color:#662204;
-    text-align: center; 
+    color:#9A998C; 
+}
+
+.link{
+    color:#9A998C; 
 }
 .W123 {
     color: rgb(0, 0, 0);
@@ -61,10 +64,15 @@ div.r{
 .table-80{
     width: 80%;
 }
-.br{
-    text-align: center
-}
+
 .darkbg{
-    background-color: rgb(238, 217, 217);
+    background-color: #F8F4E3;
     color: #000000;
+}
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+.S{
+    color:#000000; 
 }

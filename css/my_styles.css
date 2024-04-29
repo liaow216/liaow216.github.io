@@ -36,7 +36,6 @@ div.r{
     border-radius: 10px;
     margin: 0px 0px 50px 0px;
     color: hsl(31, 56%, 44%);  
-    background-image: url(../assets/img/S__65716229.jpg);
     font-size:40px;
     text-align: center;
     text-indent: 2em;
@@ -47,10 +46,6 @@ div.r{
     margin:0px 0px 50px 0px;
 }
 .b{
-    color:#9A998C; 
-}
-
-.link{
     color:#9A998C; 
 }
 .W123 {
@@ -66,7 +61,7 @@ div.r{
 }
 
 .darkbg{
-    background-color: #F8F4E3;
+    background-color: #9a998c47;
     color: #000000;
 }
 p.lead {
@@ -75,4 +70,24 @@ p.lead {
 }
 .S{
     color:#000000; 
+}
+ .tt{
+    color: #000000;
+    line-height: 3em;
+    text-align: center;
+    display: block;
+}
+.k {
+    padding: 30px 40px;
+    padding-bottom: 20px;
+    background-color: #cac5bd83;
+    border-radius: 30px;
+    font-family: 'Noto Serif TC', sans-serif;
+}
+.center{
+    text-align: center;
+}
+.img {
+    width: 300px;
+    height: auto;
 }

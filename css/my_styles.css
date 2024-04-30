@@ -30,17 +30,6 @@ table.wwtable td{
     background-size:cover ;
     background-position:center ;
 }
-div.r{
-    padding: 50px;
-    border: 10px solid #5C8447 ;
-    border-radius: 10px;
-    margin: 0px 0px 50px 0px;
-    color: hsl(31, 56%, 44%);  
-    font-size:40px;
-    text-align: center;
-    text-indent: 2em;
-    letter-spacing: 0.8px;
-}
 .w80{
     width:80%;
     margin:0px 0px 50px 0px;

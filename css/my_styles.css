@@ -88,6 +88,22 @@ p.lead {
     text-align: center;
 }
 .img {
-    width: 300px;
-    height: auto;
+    width: 200px;
+    height: auto;;
+}
+.oo{
+    text-indent: 2em
+}
+.www80
+{
+    width: 80%;
+    margin: auto;    
+}
+.pp{
+    color: #000000;
+    background-color: #9a998c6f;
+}
+.ppp{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.344);
 }

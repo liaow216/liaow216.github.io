@@ -9,18 +9,158 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </head>
+
+
 <body>
-    <div class="container bg-dark text-white p-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">廖昱惟Bookstrap練習</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#xcon">有斷點</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://liaow216.github.io/" target="_blank">部落格</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">即將登場</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  更多信息
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action action</a></li>  
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Timeline</h6>
+                        <div id="content">
+                            <ul class="timeline">
+                                <li class="event" data-date="12:30 - 1:00pm">
+                                    <h3>Registration</h3>
+                                    <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+                                </li>
+                                <li class="event" data-date="2:30 - 4:00pm">
+                                    <h3>Opening Ceremony</h3>
+                                    <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp; Busta Rhymes as an opening show.</p>
+                                </li>
+                                <li class="event" data-date="5:00 - 8:00pm">
+                                    <h3>Main Event</h3>
+                                    <p>This is where it all goes down. You will compete head to head with your friends and rivals. Get ready!</p>
+                                </li>
+                                <li class="event" data-date="8:30 - 9:30pm">
+                                    <h3>Closing Ceremony</h3>
+                                    <p>See how is the victor and who are the losers. The big stage is where the winners bask in their own glory.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-lg-3 bg-warning">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-6 col-lg-3 bg-warning">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-6 col-lg-3 bg-warning">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-6 col-lg-3 bg-warning">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container bg-dark text-white p-5 m-5"id="xcon">
         <h1>斷點容器</h1>
-        <div class="row bg-light text-dark p-5">
+        <div class="row bg-light text-dark p-2">
             <h2>這是row</h2>
-            <div class="col-4 bg-warning p-2 border">
+            <div class="col-12 col-md-6 col-lg-3 bg-info text-dark  p-2 border">
                 <h3>這是col</h3>
             </div>
-            <div class="col-4 bg-warning p-2 border">
+            <div class="col-12 col-md-6 col-lg-3 bg-info text-dark  p-2 border">
                 <h3>這是col</h3>
             </div>
-            <div class="col-4 bg-warning p-2 border">
+            <div class="col-12 col-md-6 col-lg-3 bg-info text-dark  p-2 border">
                 <h3>這是col</h3>
             </div>
         </div>
